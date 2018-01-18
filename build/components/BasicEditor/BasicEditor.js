@@ -1209,11 +1209,11 @@ var _initialiseProps = function _initialiseProps() {
       _this4.setState(stateMods);
     }
 
-    setTimeout(function () {
-      if (!_this4.state.readOnly) {
-        editorNode.focus();
-      }
-    }, 1);
+    // setTimeout(() => {
+    if (!_this4.state.readOnly) {
+      editorNode.focus();
+    }
+    // }, 1);
   };
 
   this.render = function () {

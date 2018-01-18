@@ -1074,11 +1074,11 @@ export default class BasicEditor extends Component {
       this.setState(stateMods);
     }
 
-    setTimeout(() => {
-      if (!this.state.readOnly) {
-        editorNode.focus();
-      }
-    }, 1);
+    // setTimeout(() => {
+    if (!this.state.readOnly) {
+      editorNode.focus();
+    }
+    // }, 1);
 
   };
 
